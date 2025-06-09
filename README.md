@@ -1,4 +1,74 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Kwickly POS Admin
+
+A React Native application for managing restaurant POS systems.
+
+## Features
+
+- Light/Dark theme support
+- Modern UI with TailwindCSS
+- Navigation system with authentication flow
+- Dashboard with quick stats
+
+## Setup Instructions
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. iOS Setup:
+
+```bash
+cd ios
+pod install
+cd ..
+```
+
+3. Start the application:
+
+For iOS:
+
+```bash
+npm run ios
+```
+
+For Android:
+
+```bash
+npm run android
+```
+
+## Project Structure
+
+- `/src`
+  - `/navigation` - Navigation stacks and types
+  - `/screens` - Screen components
+  - `/theme` - Theme configuration and context
+  - `/styles` - Global styles and TailwindCSS configuration
+
+## Tech Stack
+
+- React Native
+- TypeScript
+- TailwindCSS (via NativeWind)
+- React Navigation
+
+## Development
+
+To start the development server:
+
+```bash
+npm start
+```
+
+Then, in a separate terminal, run the app on your preferred platform:
+
+```bash
+npm run ios
+# or
+npm run android
+```
 
 # Getting Started
 
@@ -66,7 +136,7 @@ This is one way to run your app — you can also build it directly from Android 
 
 Now that you have successfully run the app, let's make changes!
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
 
 When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
 
